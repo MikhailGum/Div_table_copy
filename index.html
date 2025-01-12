@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Таблица через тег DIV ( CSS display: table)</title>
+<style type="text/css">
+.table{display: table; border: 0px solid black; margin: 16px; padding: 0px;width:80%}
+.caption{display: table-caption; border: 0px solid black}
+.cell{display: table-cell; border: 1px solid black;}
+.cell{display:inline-block;margin:10px; }
+.row{display: table-row; border: 0px solid black;}
+ </style>
+ </head>
+ <body>
+<DIV class="table">
+<DIV class="caption"> Пример таблицы, составленной из тегов div </div> 
+
+<DIV class="row">
+<DIV class="cell">Статус</DIV>
+ <DIV class="cell">Идентификатор</DIV>
+ <DIV class="cell">Дата</DIV>
+</DIV>
+ <DIV class="cell">Оплачен</DIV>
+<DIV class="cell">11111111</DIV>
+ <DIV class="cell">27.12.24, в 20:03</DIV>
+<DIV class="row">
+<DIV class="cell">В работе</DIV>
+ <DIV class="cell">22222222</DIV>
+ <DIV class="cell">28.12.24, в 10:05</DIV>
+</DIV>
+</div> 
+
+
+<p><b>При её копировании в эксель информация вставляется в один столбец</b> <br>
+  <DIV >
+<DIV >Статус</DIV>
+ <DIV >Идентификатор</DIV>
+ <DIV >Дата</DIV>
+</DIV>
+ <DIV >Оплачен</DIV>
+<DIV >11111111</DIV>
+ <DIV >27.12.24, в 20:03</DIV>
+<DIV >
+<DIV >В работе</DIV>
+ <DIV >22222222</DIV>
+ <DIV >28.12.24, в 10:05</DIV>
+</DIV>
+</div> 
+
+
+  </body>
+ </html>
